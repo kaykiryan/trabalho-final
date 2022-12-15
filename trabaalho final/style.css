@@ -1,0 +1,40 @@
+#foto1{
+    width: 100px;
+    height: 100px;
+}
+body{
+    background-image: url(league1.jpg)
+}
+#copa{
+    color:crimson;
+}
+#funciona{
+    color: crimson;
+}
+#empate{
+    color: crimson;
+}
+
+#penaltis{
+    color: crimson;
+}
+#vencedor{
+    color: crimson;
+}
+#golsemdisputa{
+    color: crimson;
+}
+
+#Marrocos{
+    color: crimson;
+}
+
+#final{
+    color: crimson;
+}
+#curiosidades{
+    color: crimson
+}
+#publico{
+    color: crimson;
+}

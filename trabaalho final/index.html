@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalho final</title>
+    <link rel="stylesheet" href="style.css">
+    <header>
+        <nav><a href="index2.html">clique aqui para ir para a 2 parte</a></nav>
+    </header>
+    <style>
+        nav{
+            animation-name: cores;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes cores{
+           0%{background-color: red;}
+           25%{background-color: yellow;}
+           50%{background-color: blue;}
+           75%{background-color: green;}
+           100%{background-color:red ;}
+           
+        }
+    </style>
+</head>
+
+<body>
+
+    <input type="text" id="nome" size="30px" maxlength="30" placeholder="escreva seu nome"> </input>
+    <input type="text" id="Idade" size="30px" maxlength="30" placeholder="escreva sua idade"> </input>
+    <button onclick="ok" id="botao">ok</button> <br>
+    
+        
+  
+  
+</div>
+    <div id="copa">
+   <h1>Copa do mundo </h1>
+</div>
+   <p>Todos nós sabemos que a Copa do mundo é o maior Campeonato do Mundo <br>
+cheio de esperanças de 4 em 4 anos!<br>
+A competição foi criada pelo francês Jules Rimet,<br> em 1928, após ter assumido o comando da instituição mais importante do futebol mundial:<br> a FIFA ( Federation International Football Association).<br> A primeira edição da Copa do Mundo foi realizada no Uruguai em 1930.<br>
+temos no Mundo varias seleções com essa conquista! como brasil alemanha itália e etc...</p>
+<div id="funciona">
+<h1>como ela funciona</h1>
+</div>
+<p>Como a Copa do Mundo funciona?<br> As 32 seleções são divididas em grupos de quatro. Os times se enfrentam uma vez dentro do grupo<br>, e os dois mais bem classificados passam para as oitavas.<br> A partir daí, é eliminatória em jogo único.</p>
+<div id="empate">
+<h1>caso o jogo termine empatado</h1>
+</div>
+<p>Quantos minutos tem a prorrogação? Caso o jogo termine empatado após os 90 minutos,<br> a decisão vai para a prorrogação, disputada em dois tempos de 15 minutos.<br> Se o empate persistir depois de 120 minutos, a vaga será definida em uma disputa de pênaltis.</p>
+<div id="penaltis">
+<h1>como funciona a disputa de penaltis</h1>
+</div>
+<p>A disputa por pênaltis, em caso de empate após os 90 minutos e a prorrogação,<br> foi introduzida na Copa do Mundo a partir de 1978. Antes disso,<br> em caso de igualdade no placar após 120 minutos,<br> uma partida extra seria disputada entre as seleções<br> - chamada de "Replay".</p>
+<div id="vencedor">
+<h1>como é definido o vencedor </h1>
+</div>
+<p>Em uma disputa de pênaltis, cada equipe se reveza para chutar a gol a partir da marca do pênalti,<br> sendo o gol defendido apenas pelo goleiro da equipe adversária.<br> Cada time tem cinco chutes que devem ser feitos por cinco diferentes tentativas;<br> o time que fizer mais cobranças mais bem-sucedidas é declarado o vencedor.</p>
+<div id="golsemdisputa">
+<h1>Gols em disputa de penaltis conta para a artilharia da copa ou não </h1>
+</div>
+<p>Uma dúvida comum é se os gols marcados por um jogador em disputa de pênaltis contam como gol para a artilharia da Copa do Mundo <br>. E a resposta é não. Os gols marcados foram dos 120 minutos <br>- contando uma eventual prorrogação - não são considerados para a artilharia de nenhuma competição do planeta.<br></p>
+<div id="Marrocos">
+<h1>seleção revelação  da copa desse ano em 2022</h1>
+</div>
+<p>Marrocos foi o primeiro pais africano arabe em uma semifinal <br>
+    e foi o país que sofreu apenas 3 gols em toda a copa do mundo 
+</p>
+<div id="final">
+<h1>final</h1>
+</div>
+<p>a final da copa do mundo do catar será no domingo as 12:00 <br> a final será entre a argentina e a frança as duas seleções que chegaram mais longe nessa copa do mundo<br></p>
+<div id="curiosidades">
+<h1>Curiosidades</h1>
+</div>
+<p>7 números e curiosidades da Copa do Mundo da FIFA 2022™<br>
+    O mundial mais caro da história. ...<br>
+    O esporte do Catar não é o futebol. ...<br>
+    Uma cidade nova inteira para o mundial. ...<br>
+    Primeiro estádio desmontável. ...<br>
+    A Copa do Mundo da FIFA™ mais compacta da história. ...<br>
+    Primeiro mundial com mais jogadores por seleção. ...<br>
+    Último mundial com 32 seleções.</p>
+    <div id="publico">
+        <h1>o maior publico da copa do mundo </h1>
+    </div>
+        <p>o Maior público em Copas do Mundo: 174.000 no jogo Uruguai 2 x 1 Brasil em 16 de julho de 1950 - Estádio do Maracanã - </p>
+</body>
+
+ <script>
+ alert("responda algumas perguntas para acessar nosso site!") 
+ alert ("escreva seu nome e sua iadade na barra abaixo e veja a mágica acontecer")
+    const botao = document.querySelector('#botao');
+const nome = document.querySelector('#nome')
+            const Idade = document.querySelector('#Idade')
+            const sla = document.createElement("div")  
+             const texto  = document.createElement("h1") 
+           
+           
+  function bemvindo(){
+    const texto2 = document.createTextNode(`Seja bem vindo ${nome.value}, voce tem ${Idade.value},anos  aproveite nosso site `) 
+
+       texto.appendChild(texto2)
+         sla.appendChild(texto)
+         document.body.appendChild(sla)
+
+         console.log()
+         
+        
+          
+               
+        }
+       
+
+        
+
+botao.onclick = bemvindo;
+
+
+
+    </script>
+</body>
+</html>
